@@ -1,12 +1,84 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: awaken;
+    src: url(../font/Awaken.otf);
+}
+@font-face{
+    font-family: Hillaya;
+    src: url(../font/Hillaya\ new.ttf);
+}
+
 *{
     padding: 0px;
     margin: 0px;
 }
 body{
-    background-image: url(https://drive.google.com/file/d/1xaVPPDa21xcUQqB_4sQeAXZRDrcr8uzE/view?usp=sharing);
+    background-image: url(https://github.com/Gilvando141/Cardapio/blob/main/Image/pexels-creative-vix-370984.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+}
+menu{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.menu{
+    background-color: #e1b587b9;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.352);
+}
+li{
+    display: inline-block;  
+    font-size: 20px;
+}
+li:hover{
+    transform: scale(1.1);
+    background-color: #e1b587ee;
+    font-weight: bold;
+}
+h1{
+    
+    display: inline-block;
+    font-family: Hillaya;
+    color: #DB9142;
+    font-size: 80px;
+    padding: 3px 15px 3px 15px;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.798);
+    
+
+    position: absolute;
+    left: 50vw;
+    top: 0px;
+    transform: translate(-50%);
+
+}
+main h2{
+    position: absolute;
+    right: 70px;
+    bottom: 44vh;
+    top: 44vh;
+
+    display: inline-block;
+    background-color: #e1b5878f;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.352);
+}
+h2{
+    font-size: 30px;
+    font-family: awaken;
+}
+h2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #e1b587ec;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.837);
 }
