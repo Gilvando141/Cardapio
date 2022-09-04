@@ -9,9 +9,9 @@ Desktop: 993px até 1200px
 Grantes Telas: Acima de 1201px
 ----------------------------*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) and (min-width: 769px) {
     body{
-        background-image: url(https://github.com/Gilvando141/Cardapio/blob/main/Image/pexels-creative-vix-370984%20(mobile).jpg?raw=true);
+        background-image: url(https://github.com/Gilvando141/Cardapio/blob/main/Image/pexels-creative-vix-370984_mobile.jpg?raw=true);
     }
        
 }

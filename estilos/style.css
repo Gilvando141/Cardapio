@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: awaken;
+    font-family: 'awaken';
     src: url(../font/Awaken.otf);
 }
 @font-face{
-    font-family: Hillaya;
+    font-family: 'Hillaya';
     src: url(../font/Hillaya\ new.ttf);
 }
 
@@ -14,7 +14,7 @@
     margin: 0px;
 }
 body{
-    background-image: url(https://github.com/Gilvando141/Cardapio/blob/main/Image/pexels-creative-vix-370984%20(mobile).jpg?raw=true);
+    background-image: url(https://github.com/Gilvando141/Cardapio/blob/main/Image/pexels-creative-vix-370984.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -33,20 +33,22 @@ menu{
 }
 li{
     display: inline-block;  
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'awaken';
 }
 li:hover{
     transform: scale(1.1);
     background-color: #e1b587ee;
     font-weight: bold;
+    cursor: pointer;
 }
-h1{
+h1 a{
     
     display: inline-block;
-    font-family: Hillaya;
-    color: #DB9142;
-    font-size: 80px;
-    padding: 3px 15px 3px 15px;
+    font-family: 'Hillaya';
+    color: #db9142d6;
+    font-size: 6vw;
+
     text-shadow: 2px 1px rgba(0, 0, 0, 0.798);
     
 
@@ -56,23 +58,31 @@ h1{
     transform: translate(-50%);
 
 }
-main h2{
+.cardapio{
     position: absolute;
-    right: 70px;
-    bottom: 44vh;
-    top: 44vh;
+    right: 7vw;
+    bottom: 43vh;
+    top: 43vh;
 
     display: inline-block;
     background-color: #e1b5878f;
-    padding: 15px;
     border-radius: 15px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.352);
+    height: 8vh;
+    width: 21vw;
 }
 h2{
-    font-size: 30px;
-    font-family: awaken;
+    display: inline-block;
 }
-h2:hover{
+h2 a{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 2vw;
+    font-family: 'awaken';
+    
+}
+.cardapio:hover{
     cursor: pointer;
     transform: scale(1.1);
     background-color: #e1b587ec;
