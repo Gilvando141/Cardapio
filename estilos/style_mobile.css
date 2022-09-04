@@ -9,9 +9,55 @@ Desktop: 993px até 1200px
 Grantes Telas: Acima de 1201px
 ----------------------------*/
 
-@media screen and (max-width: 992px) and (min-width: 769px) {
+@media screen and (max-width: 992px){
     body{
-        background-image: url(https://github.com/Gilvando141/Cardapio/blob/main/Image/pexels-creative-vix-370984_mobile.jpg?raw=true);
+        background-image: url(https://github.com/Gilvando141/Cardapio/blob/main/Image/pexels-creative-vix-370984.jpg?raw=true);
     }
        
+}
+@media screen and ((min-width: 871px)){
+    #burguer{
+        display: none;
+    }
+}
+@media screen and (max-width: 870px){
+    #itens{
+        display: none;
+    }
+    menu{
+        position: absolute;
+        right: 5px;
+        top: 48px;
+    }
+    .menu{
+        background-color: #e1b587ee;
+        padding: 0.3vw;
+        margin-left: 5px;
+        border: 0px;
+        border-top-left-radius: px;
+        border-top-right-radius: 0px;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.352);
+    }
+    li{
+        display: block;  
+        font-size: 16px;
+        font-family: 'awaken';
+    }
+    li:hover{
+        transform: scale(1.1);
+        background-color: #e1b587ee;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #burguer{
+        position: absolute;
+        right: 0px;
+    
+        margin: 5px;
+        font-size: 5vw;   
+        color: rgba(0, 0, 0, 0.648);
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+    }
 }

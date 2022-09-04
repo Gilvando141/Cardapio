@@ -14,10 +14,11 @@
     margin: 0px;
 }
 body{
-    background-image: url(https://github.com/Gilvando141/Cardapio/blob/main/Image/pexels-creative-vix-370984.jpg?raw=true);
+    background-image: url(https://github.com/Gilvando141/Cardapio/blob/main/Image/pexels-creative-vix_pc.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    background-attachment: fixed;
 }
 menu{
     position: absolute;
@@ -25,8 +26,8 @@ menu{
     top: 5px;
 }
 .menu{
-    background-color: #e1b587b9;
-    padding: 5px;
+    background-color: #e1b587ee;
+    padding: 0.3vw;
     margin-left: 5px;
     border-radius: 10px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.352);
@@ -41,6 +42,22 @@ li:hover{
     background-color: #e1b587ee;
     font-weight: bold;
     cursor: pointer;
+}
+#burguer{
+    position: absolute;
+    right: 0px;
+
+    margin: 5px;
+    font-size: 5vw;   
+    color: rgba(0, 0, 0, 0.648);
+    background-color: #e1b587de;
+    border-radius: 5px;
+}
+#burguer:hover{
+    transform: scale(1.1);
+    background-color: #e1b587ee;
+    font-weight: bold;
+    cursor: pointer; 
 }
 h1 a{
     
